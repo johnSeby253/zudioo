@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    overflow-x: hidden;
+}
+.navbar-brandl{
+    color: #4d1905;
+    text-decoration: none;
+    font-weight: 500;
+}
+.Z{
+  font-family: serif;
+   font-size: 30px;
+   font-weight: 800;   
+}
+.cate{
+    text-decoration: none;
+    color: #291802;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+                  Geneva, Verdana, sans-serif;
+    font-weight: 900;                
+}
+.col-md-2:hover{
+    color: #e4aa5e;
+}
+.offer_head{
+    text-align: center;
+    font-size: 30px;
+    color: #4d2d05;
+    background-color:#a5a4a4dd;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    
+}
+.navbar{
+    background-color: #a5a4a4eb;
+    color: #4d2d05;
+    width: 100%;
+}
+.container-fluidd{
+    margin-top: 0px;
+}
+.card-img-top{
+  height: 333px;
+}
+.card{
+    margin-top: 50px;  
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.card-text{
+    font-weight: 800;
+    font-size: 20px;
+    color: #7fc426;
+}
+.card-body{
+    text-align: center;
+}
+.cardad{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cardad-title img{
+   width: 100px;
+   height: 40px;
+}
+.itm_img{
+    height: 300px;
+    width: 100%;
+}
+.crd_off{
+    color: #d23328;
+}
+.card:hover{
+    background-color: #dfe5e69c;
+    transform: scale(1.04);
+}
+.mens{
+    
+    color: #4d1905;
+    text-decoration: none;
+}
+.card-texts a{
+    text-decoration: none;
+    text-align: start;
+}
+.card-texts{
+    font-size: 15px;
+    font-weight: 700;
+}
+@media (max-width: 767.98px) { 
+    .card{
+        width:80%;
+        height:300px;
+        margin: 20px auto;
+    }
+    .itm_img{
+        width: 100%;
+        height: 200px;
+    }
+    
+ }
+@media (max-width: 575.98px) { 
+    .card{
+        width:100%;
+        height:300px;
+        margin: 10px auto;
+    }
+    .itm_img{
+        width: 80%;
+        height: 200px;
+    }
+    .card img {
+        width: 100%;
+        height: 250px;
+        margin: auto;
+    }
+    .itm_img {
+        width: 100%;
+        height: 200px;
+        margin: auto;
+    }
+    .cardad-title img{
+        width: 100%;
+        height: 40px;
+    }
+    .card-text{
+        font-weight: 700;
+        font-size: 18px;
+        color: #7fc426;
+    }
+ }
+ @media (max-width: 375.98px) { 
+    .card{
+        width:100%;
+        height:200px;
+        margin: 10px auto;
+    }
+    .itm_img{
+        width: 100%;
+        height: 180px;
+    }
+    .card img {
+        width: 100%;
+        height: 150px;
+        margin: auto;
+    }
+    .cardad-title img{
+        width: 100%;
+        height: 40px;
+    }
+    .card-text{
+        font-weight: 400;
+        font-size: 15px;
+        color: #7fc426;
+    }
+}
+   
+
